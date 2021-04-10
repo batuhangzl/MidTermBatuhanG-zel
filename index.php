@@ -20,11 +20,20 @@ $color="red";
 
 $auto1=new Automobile($licencePlate,$brand,$model,$modelYear,$color);
 
-<a href="test_get.php?subject=PHP&web=W3schools.com">Test $GET</a>
+?>
+<form method="GET">
 
+    <input type="submit">
+</form>
+<pre>
+$_GET:
+<?php
+print_r($_GET);
 ?>
 
-
-
+<pre>
+$_POST
+<?php
+print_r($_POST);
 </body>
 </html>
